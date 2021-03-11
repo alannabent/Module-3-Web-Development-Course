@@ -1,0 +1,104 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* Styling for Navbar */
+
+#header-nav {
+    padding: 30px;
+    background-color: maroon;
+    margin: 0px;
+    border: 0px;
+    border-radius: 0px;
+}
+#nav-list li  {
+  
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+   
+    
+}
+
+#nav-list li a {
+    color: white;
+}
+
+#nav-list li a:hover {
+    color: green;
+}
+
+.navbar_brand {
+    position: relative;
+    left: -15px;
+    text-decoration: none;
+}
+
+.navbar-brand {
+    position:relative;
+    top: -30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.navbar-brand a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-brand a:hover {
+    color:white;
+    text-decoration: none; 
+}
+
+/* End of Styling for Navbar */
+
+#menu_section h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: maroon;
+    padding-top: 15px;
+    
+}
+
+#chicken_info {
+    background-color: grey;
+    height: 500px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#chicken_info h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   padding-top: 30px;
+}
+
+#beef_info {
+    background-color: grey;
+    height: 500px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#beef_info h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   padding-top: 30px;
+}
+
+#sushi_info {
+    background-color: grey;
+    height: 500px;
+    margin: 20px;
+    margin-top: 50px;
+}
+
+#sushi_info h1 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+   padding-top: 30px;
+}
+

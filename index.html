@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap CSS Plugin-->
+ 
+    <link rel = "stylesheet" href = "css/styles.css">
+    <link rel = "stylesheet" href = "css/bootstrap.min.css">
+    <link rel = "stylesheet" href = "css/bootstrap.css">
+    <!--End of Bootstrap CSS Plugin-->
+    <!--Bootstrap JS Plugin-->
+    <script src = "js/jquery-3.6.0.min.js"></script> <!--Jquery Plugin-->
+    <script src = "js/bootstrap.min.js"></script>
+    <script src = "js/script.js"></script>
+    <!--End of Bootstrap JS Plugin-->
+    <title>Module-3-Solution</title>
+</head>
+<body>
+
+    <header>
+        <nav id = "header-nav" class = "navbar navbar-default">
+        <div class = "container-fluid">  <!--Header Background Color-->
+            <div class = "navbar-header"> <!--Title Info-->
+            
+                <div class = navbar-brand>
+                <a href = "index.html" class = "pull-left"><h1> Food, LLC</h1></a></div>
+                
+                <!--Bootstrap Button Classes-->
+                <button type ="button" class ="navbar-toggle collapsed" data-toggle="collapse"
+                data-target = "#collapsable-nav" aria-expanded="false">
+                <span class = "sr-only"> Toggle navigation</span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+                <span class = "icon-bar"></span>
+               </button>
+            </div>
+           
+        <!--Collapsable Bootstrap Classes-->
+        <div class = "collapse navbar-collapse"  id = "collapsable-nav">
+
+            <!--Original Content-->
+            <ul id = "nav-list" class = "nav navbar-nav navbar-right" >
+                <li class = "text-center">
+                    <a href = "#chicken_info"> <br class = "hidden-xs"> Chicken</a> 
+                </li>
+                <li class = "text-center">
+                    <a href = "#beef_info"> <br class = "hidden-xs"> Beef</a> 
+                </li>
+                <li class = "text-center">
+                    <a href = "#sushi_info"> <br class = "hidden-xs"> Sushi</a> 
+                </li>
+            </ul>
+        </div>
+       
+        </div>
+        </nav>
+
+
+    </header>
+
+    <!--End of Header-->
+
+    <!-- Start of Menu Sections-->
+    <section id = menu_section> 
+        <h1 class = "text-center"> Our Menu</h1>
+    </section>
+
+    <section id = chicken_info>
+        <h1 class = "text-center"> Chicken</h1>
+    </section>
+
+    <section id = beef_info>
+        <h1 class = "text-center"> Beef</h1>
+    </section>
+
+    <section id = sushi_info>
+        <h1 class = "text-center"> Sushi</h1>
+    </section>
