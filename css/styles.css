@@ -113,3 +113,22 @@ background-color: maroon;
     color:black;
     text-decoration: none;
 }
+
+/* Styling for Menu Descriptions and links */
+
+.menu_description {
+    font-size: 25px;
+    position: relative;
+    bottom: -15px;
+}
+
+.menu_description a {
+    color: maroon;
+    text-decoration: none;
+
+}
+
+.menu_description a:hover {
+    color: black;
+    text-decoration: none;
+}
