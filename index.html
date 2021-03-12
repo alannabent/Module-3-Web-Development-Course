@@ -26,11 +26,11 @@
             <div class = "navbar-header"> <!--Title Info-->
             
                 <div class = navbar-brand>
-                <a href = "index.html" class = "pull-left"><h1> Food, LLC</h1></a></div>
+                <a href = "index.html" class = "pull-left"><h1 id = "top"> Food, LLC</h1></a></div>
                 
                 <!--Bootstrap Button Classes-->
                 <button type ="button" class ="navbar-toggle collapsed" data-toggle="collapse"
-                data-target = "#collapsable-nav" aria-expanded="false">
+                data-target = "#Collapse_nav" aria-expanded="false">
                 <span class = "sr-only"> Toggle navigation</span>
                 <span class = "icon-bar"></span>
                 <span class = "icon-bar"></span>
@@ -39,10 +39,10 @@
             </div>
            
         <!--Collapsable Bootstrap Classes-->
-        <div class = "collapse navbar-collapse"  id = "collapsable-nav">
+        <div class = "collapse navbar-collapse"  id = "Collapse_nav">
 
             <!--Original Content-->
-            <ul id = "nav-list" class = "nav navbar-nav navbar-right" >
+            <ul id = "nav-list" class = "nav navbar-nav navbar-right visible-xs" >
                 <li class = "text-center">
                     <a href = "#chicken_info"> <br class = "hidden-xs"> Chicken</a> 
                 </li>
@@ -64,18 +64,23 @@
     <!--End of Header-->
 
     <!-- Start of Menu Sections-->
-    <section id = menu_section> 
+    <section id = "menu_section"> 
         <h1 class = "text-center"> Our Menu</h1>
     </section>
+    <section class = column-menu>
+    <div class = "container-fluid">
+        <div class = "row">
+           <div class = "col-md-12 col-sm-12 col-xs-12"> <h2 class = "text-center">Chicken</h2></div>
+           <div class = "col-md-12 col-sm-12 col-xs-12"> <h2 class = "text-center"> Beef</h2></div>
+           <div class = "col-md-12 col-sm-12 col-xs-12"> <h2 class = "text-center"> Sushi</h2></div>
 
-    <section id = chicken_info>
-        <h1 class = "text-center"> Chicken</h1>
+        </div>
+    </div>
     </section>
 
-    <section id = beef_info>
-        <h1 class = "text-center"> Beef</h1>
-    </section>
+<!--Bottom Link to Top of Page-->
+    <div id = "link_top" class = container>
+        <h3 class = "text-center"> <a href = "#top"> Back to Top</a></h3></div>
+         </div>
 
-    <section id = sushi_info>
-        <h1 class = "text-center"> Sushi</h1>
-    </section>
+</body>
