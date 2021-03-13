@@ -13,12 +13,21 @@ body {
     border-radius: 0px;
 }
 
-#nav-list {
+
+.collapse .navbar-collapse #nav-list {
     background-color: black;
     margin: 0;
     padding: 20px;
     width: 100%;
+    
 }
+
+ .menu-list-design {
+    background-color: black;
+    width:100%;
+    border-bottom: .25px solid maroon;
+}
+
 #nav-list li  {
   
     font-family: 'Times New Roman', Times, serif;
